@@ -1,7 +1,8 @@
-# 💫 About Me: RAVULA RAMESH
+### <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:RAVULA RAMESH
 🏦 Master of Computer Application(MCA) | Programmer |Full stack developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 <br>
-🎓I’m currently studying Siddhartha Institute of Technology and Science<br>🌱 I’m currently learning Data analyst<br>🎯 I’m currently focusing on: Problem-Solving, ⭐ star the projects if you like it 🤩.<br>🤔 I’m currently open for: A new job opportunity, LINK TO MY RESUME.<br>✉  You can shoot me an email at ravularamesh74@gmail.com ! I’ll try to respond as soon as I can.<br>
+🎓I’m currently studying Siddhartha Institute of Technology and Science
+ <br>🌱 I’m currently learning Data analyst<br>🎯 I’m currently focusing on: Problem-Solving, ⭐ star the projects if you like it 🤩.<br>🤔 I’m currently open for: A new job opportunity, LINK TO MY RESUME.<br>✉  You can shoot me an email at ravularamesh74@gmail.com ! I’ll try to respond as soon as I can.<br>
 
 
 ## 🌐 Socials:
