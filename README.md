@@ -106,3 +106,8 @@ Opportunities where I can **build real systems**, **learn from experienced engin
 ---
 
 [![](https://visitcount.itsvg.in/api?id=Ravularamesh74&icon=0&color=0)](https://visitcount.itsvg.in)
+
+
+## 🐍 Contribution Snake
+
+![snake](https://github.com/Ravularamesh74/Ravularamesh74/blob/output/github-contribution-grid-snake.svg)
