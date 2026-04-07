@@ -109,9 +109,8 @@ Opportunities where I can **build real systems**, **learn from experienced engin
 
 
 ## 🐍 Contribution Snake
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ravularamesh74/Ravularamesh74/output/github-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/Ravularamesh74/Ravularamesh74/output/github-contribution-grid-snake.svg" />
 </p>
 
 
