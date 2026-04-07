@@ -1,32 +1,56 @@
-name: Generate Snake
+name: Advanced Snake Generator 🚀
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+schedule:
+- cron: "0 */6 * * *"   # every 6 hours (faster updates)
+workflow_dispatch:
 
 permissions:
-  contents: write
+contents: write
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
+generate:
+runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v3
+```
+steps:
+  # ✅ Checkout Repo
+  - name: Checkout Repository
+    uses: actions/checkout@v3
 
-      - name: Generate Snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Ravularamesh74
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+  # ✅ Generate Snake (Multiple Variants)
+  - name: Generate Snake Animations
+    uses: Platane/snk@v3
+    with:
+      github_user_name: Ravularamesh74
+      outputs: |
+        dist/github-snake.svg
+        dist/github-snake-dark.svg?palette=github-dark
+        dist/github-snake-neon.svg?color_snake=#00ffcc&color_dots=#003333,#005555,#007777,#00aaaa,#00cccc
+        dist/github-snake-matrix.svg?color_snake=#00ff00&color_dots=#001100,#002200,#003300,#004400,#005500
+        dist/github-snake.gif
+        dist/github-snake-dark.gif?palette=github-dark
 
-      - name: Push Snake
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  # ✅ Ensure Output Branch Exists
+  - name: Create output branch if not exists
+    run: |
+      git fetch origin
+      if ! git show-ref --quiet refs/remotes/origin/output; then
+        git checkout --orphan output
+        git reset --hard
+        git commit --allow-empty -m "Init output branch"
+        git push origin output
+      fi
+
+  # ✅ Deploy to Output Branch
+  - name: Deploy Snake to Output Branch
+    uses: crazy-max/ghaction-github-pages@v3
+    with:
+      target_branch: output
+      build_dir: dist
+      commit_message: "🐍 Update contribution snake animation"
+      keep_history: false
+
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
