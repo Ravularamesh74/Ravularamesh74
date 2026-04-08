@@ -47,7 +47,11 @@ Opportunities where I can **build real systems**, **learn from experienced engin
   <a href="mailto:ravularamesh74@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
----
+ <!-- PACMAN GIF -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400" alt="Pacman Animation" />
+</p>
+
 <p align="center">
     <img width="98%"
         src="https://capsule-render.vercel.app/api?type=blur&height=300&color=gradient&text=Dream%20Builder&reversal=false&section=header&animation=twinkling" />
@@ -187,6 +191,7 @@ Opportunities where I can **build real systems**, **learn from experienced engin
 <br />
 
 
+
 ## 🧠 Developer Mindset
 
 > *“I don’t aim to just write code — I aim to build systems that last.”*
@@ -195,7 +200,7 @@ Opportunities where I can **build real systems**, **learn from experienced engin
 - Security is not optional  
 - Real-world projects > tutorials  
 - Consistency beats talent  
-
+ 
 
 
 # 📊 GitHub Stats:
