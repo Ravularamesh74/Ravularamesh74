@@ -185,7 +185,7 @@ Opportunities where I can **build real systems**, **learn from experienced engin
     </tr>
 </table>
 <br />
----
+
 
 ## 🧠 Developer Mindset
 
