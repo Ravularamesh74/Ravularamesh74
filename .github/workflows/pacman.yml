@@ -1,4 +1,4 @@
-name: Generate Pac-Man Contribution Graph
+name: Real Pac-Man Animation
 
 on:
   schedule:
@@ -13,15 +13,55 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Pac-Man Graph
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Ravularamesh74
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate Pac-Man SVG
+        run: |
+          cat << 'EOF' > pacman.svg
+          <svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
           
-          # ✅ PACMAN STYLE COLORS
-          outputs: |
-            dist/pacman.svg?color_snake=#FFD700&color_dots=#00FF00,#00FF00,#00FF00,#00FF00,#00FF00
-            dist/pacman-dark.svg?palette=github-dark&color_snake=#FFD700
+          <!-- Background -->
+          <rect width="100%" height="100%" fill="#0d1117"/>
+
+          <!-- Dots -->
+          <g fill="#00ffcc">
+            <circle cx="100" cy="100" r="5"/>
+            <circle cx="200" cy="100" r="5"/>
+            <circle cx="300" cy="100" r="5"/>
+            <circle cx="400" cy="100" r="5"/>
+            <circle cx="500" cy="100" r="5"/>
+            <circle cx="600" cy="100" r="5"/>
+          </g>
+
+          <!-- Pac-Man -->
+          <path fill="#FFD700">
+            <animate attributeName="d" dur="0.4s" repeatCount="indefinite"
+              values="
+              M80,100 A30,30 0 1,1 79.9,100 L80,100;
+              M80,100 L110,80 A30,30 0 1,1 110,120 Z;
+              M80,100 A30,30 0 1,1 79.9,100 L80,100"
+            />
+          </path>
+
+          <!-- Movement -->
+          <g>
+            <animateTransform attributeName="transform" type="translate"
+              from="0 0" to="500 0" dur="5s" repeatCount="indefinite"/>
+          </g>
+
+          <!-- Ghost -->
+          <rect x="650" y="70" width="40" height="40" fill="#ff4b5c">
+            <animate attributeName="x" from="650" to="100" dur="5s" repeatCount="indefinite"/>
+          </rect>
+
+          </svg>
+          EOF
+
+      - name: Move to dist
+        run: |
+          mkdir dist
+          mv pacman.svg dist/
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
