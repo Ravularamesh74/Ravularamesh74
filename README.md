@@ -204,9 +204,15 @@ Opportunities where I can **build real systems**, **learn from experienced engin
 
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Ravularamesh74&theme=white&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Ravularamesh74&theme=white&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ravularamesh74&theme=white&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+
+<img src="https://github-readme-stats.vercel.app/api?username=Ravularamesh74&show_icons=true&theme=radical&hide_border=true" />
+
+<img src="https://streak-stats.demolab.com?user=Ravularamesh74&theme=radical&hide_border=true" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=Ravularamesh74&theme=radical" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ravularamesh74&theme=react-dark" />
+
+
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=white)
@@ -219,7 +225,5 @@ Opportunities where I can **build real systems**, **learn from experienced engin
 [![](https://visitcount.itsvg.in/api?id=Ravularamesh74&icon=0&color=0)](https://visitcount.itsvg.in)
 
 
-
 <img src="https://raw.githubusercontent.com/Ravularamesh74/Ravularamesh74/output/pacman-contribution-graph.svg">
-
 
