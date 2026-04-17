@@ -203,14 +203,34 @@ Opportunities where I can **build real systems**, **learn from experienced engin
  
 
 
-# 📊 GitHub Stats:
 
-<img src="https://github-readme-stats.vercel.app/api?username=Ravularamesh74&show_icons=true&theme=radical&hide_border=true" />
+## 📊 Analytical Intelligence & System Metrics
 
-<img src="https://streak-stats.demolab.com?user=Ravularamesh74&theme=radical&hide_border=true" />
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Ravularamesh74&theme=nord_dark" height="190" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Ravularamesh74&theme=nord_dark" height="190" />
+</div>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Ravularamesh74&theme=radical" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Ravularamesh74&theme=react-dark" />
+<br>
+
+<div align="center">
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Ravularamesh74&show_icons=true&theme=algolia&bg_color=001f3f&title_color=00d4ff&text_color=ffffff&icon_color=00d4ff&hide_border=true" height="170" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Ravularamesh74&layout=donut&theme=algolia&bg_color=001f3f&title_color=00d4ff&text_color=ffffff&icon_color=00d4ff&border_color=00d4ff&hide_active_border=true" height="170" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Ravularamesh74&bg_color=001f3f&color=00d4ff&line=00d4ff&point=ffffff&area=true&hide_border=true" width="100%" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Ravularamesh74&background=001f3f&ring=00d4ff&fire=ff4500&currStreakNum=00d4ff&sideNums=ffffff&currStreakLabel=00d4ff&sideLabels=ffffff&dates=ffffff&hide_border=true" width="100%" />
+</div>
+
+<br>
 
 
 
@@ -231,8 +251,4 @@ Opportunities where I can **build real systems**, **learn from experienced engin
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/karnVen/karnVen/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/karnVen/karnVen/output/pacman-contribution-graph.svg">
 </picture>
-
-
-
-
 
