@@ -52,10 +52,6 @@ Opportunities where I can **build real systems**, **learn from experienced engin
   <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="400" alt="Pacman Animation" />
 </p>
 
-<p align="center">
-    <img width="98%"
-        src="https://capsule-render.vercel.app/api?type=blur&height=300&color=gradient&text=Dream%20Builder&reversal=false&section=header&animation=twinkling" />
-</p>
 
 <br />
 <div style="display:flex; flex-wrap:wrap; gap:20px;">
@@ -79,16 +75,6 @@ Opportunities where I can **build real systems**, **learn from experienced engin
 </div>
 
 
-
-## 🧠 Developer Mindset
-
-> *“I don’t aim to just write code — I aim to build systems that last.”*
-
-- Clean code over clever code  
-- Security is not optional  
-- Real-world projects > tutorials  
-- Consistency beats talent  
- 
 
 
 
