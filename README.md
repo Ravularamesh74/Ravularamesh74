@@ -103,6 +103,49 @@ Opportunities where I can **build real systems**, **learn from experienced engin
 <br>
 
 
+<!-- ========================= -->
+<!-- 🧠 LEETCODE • ENGINEERING -->
+<!-- ========================= -->
+
+<h2 align="center">🧠 LeetCode • Problem Solving & DSA</h2>
+<br>
+<!-- ========================= -->
+<!-- 📊 MAIN STATS -->
+<!-- ========================= -->
+
+<p align="center">
+  <img
+    src="https://leetcard.jacoblin.cool/ravula_Ramesh?theme=dark&font=Karma&ext=heatmap"
+    alt="Ravula Ramesh LeetCode Statistics"
+    width="700"
+  />
+</p>
+
+
+<br>
+
+<!-- ========================= -->
+<!-- 📈 ENGINEERING METRICS -->
+<!-- ========================= -->
+
+<h3 align="center">📈 Engineering Problem-Solving Metrics</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Total%20Solved-307-22C55E?style=flat-square" />
+  <img src="https://img.shields.io/badge/Easy-86-16A34A?style=flat-square" />
+  <img src="https://img.shields.io/badge/Medium-165-EAB308?style=flat-square" />
+  <img src="https://img.shields.io/badge/Hard-56-DC2626?style=flat-square" />
+  <img src="https://img.shields.io/badge/Active%20Days-115-3B82F6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Max%20Streak-46-8B5CF6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Badges-5-F59E0B?style=flat-square" />
+</p>
+
+<p align="center">
+  <sub>🧠 Continuously improving algorithmic thinking and software engineering fundamentals.</sub>
+</p>
+
+
+
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=white)
